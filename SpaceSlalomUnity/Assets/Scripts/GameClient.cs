@@ -333,19 +333,19 @@ public class GameClient : MonoBehaviour
             { 
                 if (Input.GetKey(KeyCode.D))
                 {
-                    myGameObject.transform.position += myGameObject.transform.right * 2 * Time.deltaTime;
+                    myGameObject.transform.position += myGameObject.transform.right * 2.5f * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.A))
                 {
-                    myGameObject.transform.position += -myGameObject.transform.right * 2 * Time.deltaTime;
+                    myGameObject.transform.position += -myGameObject.transform.right * 2.5f * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.W))
                 {
-                    myGameObject.transform.position += myGameObject.transform.up * 2 * Time.deltaTime;
+                    myGameObject.transform.position += myGameObject.transform.up * 2.5f * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.S))
                 {
-                    myGameObject.transform.position += -myGameObject.transform.up * 2 * Time.deltaTime;
+                    myGameObject.transform.position += -myGameObject.transform.up * 2.5f * Time.deltaTime;
                 }
 
                updatePosition = new Packet(3, myNetId, roomId, myGameObject.transform.position.x, myGameObject.transform.position.y);
@@ -355,19 +355,19 @@ public class GameClient : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.D))
                 {
-                    myGameObject2.transform.position += myGameObject.transform.right * 2 * Time.deltaTime;
+                    myGameObject2.transform.position += myGameObject.transform.right * 2.5f * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.A))
                 {
-                    myGameObject2.transform.position += -myGameObject.transform.right * 2 * Time.deltaTime;
+                    myGameObject2.transform.position += -myGameObject.transform.right * 2.5f * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.W))
                 {
-                    myGameObject2.transform.position += myGameObject.transform.up * 2 * Time.deltaTime;
+                    myGameObject2.transform.position += myGameObject.transform.up * 2.5f * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.S))
                 {
-                    myGameObject2.transform.position += -myGameObject.transform.up * 2 * Time.deltaTime;
+                    myGameObject2.transform.position += -myGameObject.transform.up * 2.5f * Time.deltaTime;
                 }
                 updatePosition = new Packet(3, myNetId, roomId, myGameObject2.transform.position.x, myGameObject2.transform.position.y);
             }

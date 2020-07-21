@@ -3377,9 +3377,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d0255a02b3e9c4682b2dd2fb1ddfd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clientaddress: 192.168.3.106
-  clientport: 9995
-  serverAddress: 192.168.3.106
+  clientaddress: 192.168.20.60
+  clientport: 9992
+  serverAddress: 192.168.20.58
   serverPort: 9999
   netPrefabs:
   - Id: 0
@@ -4060,7 +4060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode

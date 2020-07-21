@@ -104,7 +104,7 @@ namespace GameServerExample2B.Test
             transport.ClientEnqueue(join, "Client1", 0);           
             server.SingleStep();
             uint idPlayer = BitConverter.ToUInt32(transport.ClientDequeue().data, 1);
-            Assert.That(idPlayer, Is.EqualTo(0));
+            Assert.That(idPlayer, Is.EqualTo(9));
         }
 
         //[Test]
